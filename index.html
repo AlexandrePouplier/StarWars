@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- nav-bar -->
+    <nav id="nav-bar">
+      <div class="logo">
+        <img src="./IMAGES/LOGO.jpg" alt="logo sabre" id="logo" />
+        <a href="./index.html" id="logo">Films Star Wars</a>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#features" class="nav-link">Infos</a>
+        </li>
+        <li>
+          <a href="#video" class="nav-link">Vidéo</a>
+        </li>
+        <li>
+          <a href="#pricing" class="nav-link">Prix</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- hero -->
+    <section class="hero">
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <h4>Chefs-d'oeuvres du Cinéma</h4>
+        <div class="form-row">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Entrez votre adresse email"
+          />
+        </div>
+        <input type="button" id="submit" value="commencer" />
+      </form>
+    </section>
+
+    <section id="features">
+      <div class="features-center">
+        <article class="feature">
+          <span class="feature-icon"
+            ><i class="fa-solid fa-fire-flame-curved"></i
+          ></span>
+          <div>
+            <h4 class="feature-title">Classique</h4>
+            <p class="feature-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
+              earum provident temporibus iste sint deleniti?
+            </p>
+          </div>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon"
+            ><i class="fa-solid fa-truck-fast"></i
+          ></span>
+          <div>
+            <h4 class="feature-title">Trilogie</h4>
+            <p class="feature-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
+              earum provident temporibus iste sint deleniti?
+            </p>
+          </div>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon"
+            ><i class="fa-solid fa-battery-full"></i
+          ></span>
+          <div>
+            <h4 class="feature-title">Cinéma</h4>
+            <p class="feature-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
+              earum provident temporibus iste sint deleniti?
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <article id="tv">
+      <iframe
+        width="642"
+        height="361"
+        src="https://www.youtube.com/embed/sa0-0d-Asvs"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        id="video"
+      ></iframe>
+    </article>
+
+    <section id="pricing">
+      <div class="card">
+        <div class="card-title">
+          <h5>First</h5>
+        </div>
+        <div class="card-body">
+          <span class="price">60&euro;</span>
+          <ul>
+            <li>Lorem.</li>
+            <li>Placeat!</li>
+            <li>Delectus.</li>
+            <li>Voluptate.</li>
+          </ul>
+          <button class="btn">sélectionner</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          <h5>Trilogie</h5>
+        </div>
+        <div class="card-body">
+          <span class="price">100&euro;</span>
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Nisi, beatae.</li>
+            <li>Laudantium, nesciunt!</li>
+            <li>Ullam, eaque.</li>
+          </ul>
+          <button class="btn">sélectionner</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          <h5>La Saga</h5>
+        </div>
+        <div class="card-body">
+          <span class="price">1500&euro;</span>
+          <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Repellendus, culpa quod?</li>
+            <li>Perspiciatis, ipsa iste.</li>
+            <li>Molestias, minus sit.</li>
+          </ul>
+          <button class="btn">sélectionner</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer-links">
+        <li>
+          <a href="#">intimité</a>
+        </li>
+        <li>
+          <a href="#">termes</a>
+        </li>
+        <li>
+          <a href="#">contact</a>
+        </li>
+      </ul>
+      <span class="copyright">copyright &copy; 2022, Star Wars</span>
+    </footer>
+  </body>
+</html>
